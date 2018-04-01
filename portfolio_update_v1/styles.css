@@ -57,9 +57,10 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/townlakebridge.jpg') no-repeat top center ;
+  background: url('images/townlakebridge.jpg') no-repeat center bottom;
   background-size: cover;
   overflow: hidden;
+  background-position: 50%;
   padding-top: 60px;
 }
 header {
@@ -102,7 +103,9 @@ header .profile-image:hover {
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
+
 }
+
 .card:hover {
   border-color: maroon;
 }
