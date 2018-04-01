@@ -73,6 +73,11 @@ header .profile-image {
   border: 3px solid white;
   transition: all .5s;
 }
+
+.selected {
+  font-weight: bold;
+  color: white;
+}
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
